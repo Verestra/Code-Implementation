@@ -1,4 +1,4 @@
-function divideAndShort(num){    
+function divideAndSort(num){    
     let tempArray = []; 
     let numArray = num.toString().split(''); 
     let resultNum = ''; 
@@ -25,4 +25,4 @@ function divideAndShort(num){
 
     return resultNum
   }
-  console.log(divideAndShort(5956560159466056))
+  console.log(divideAndSort(5956560159466056))
