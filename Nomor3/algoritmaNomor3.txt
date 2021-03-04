@@ -1,17 +1,20 @@
 1. mulai
 2. buat fungsi bernama divideAndShort yang menampung satu parameter yaitu num
-3. buat variabel tempArray yg berisi array kosong untuk menyimpan data angka sementara,
+3. lakukan validasi bahwa num harus bertipe number
+4. buat variabel tempArray yg berisi array kosong untuk menyimpan data angka sementara,
  buat variabel numArray yang berisi array data dari parameter num,
  buat variabel resultNum yg berisi string kosong
-4. buat perulangan i=0, i < panjang array numAray, i ++
+5. buat perulangan i=0, i < panjang numAray, i ++
 cek jika numArray index i merupakan 0,
 Melakukan sort data array secara Ascending pada tempArray,
 Menambah variable resultNum dengan tempArray lalu di ubah menjadi String,
 Kosongkan tempArray untuk melakukan perulangan kembali,
-cek apakah i = index terakhir dari numArray,
+cek jika i = index terakhir dari numArray,
 jika index terakhir bukan berisi angka 0,
 masukkan sisa array yang ada pada numArray ke dalam tempArray,
 lakukan kembali sort data array secara Ascending pada tempArray,
-menambah resultNum dengan tempArray
-5. hasilnya terdapat pada variable resultNum
-6. selesai
+menambah resultNum dengan tempArray lalu diubah menjadi string
+kosonngkan tempArray
+6. jika tidak tempArray[i] = numArray[i]
+7. output resultNum
+8. selesai
